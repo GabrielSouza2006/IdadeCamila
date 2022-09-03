@@ -1,0 +1,23 @@
+package Application;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class IdadeCamila {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		List idades = new ArrayList(); 
+		
+		System.out.println("Digite as idades: ");
+		for(int i=0; i<3; i++) {
+			int idade = sc.nextInt();
+			
+			idades.add(idade);
+		}
+		
+		sc.close();
+	}
+
+}
